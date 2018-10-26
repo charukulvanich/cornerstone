@@ -47,7 +47,7 @@ a.nav-link:hover{
 @media (min-width: 300px) and (max-width: 768px) {
   div.main {
     background-color: #fff;
-    background-image: url("images/Backgrounds/bg-main-mobile.jpg");
+    background-image: url("images/backgrounds/bg-main-mobile.jpg");
     background-size: cover;
     background-position: 100%;
   }
@@ -198,7 +198,7 @@ li.serviceli {
 
 div.contact {
     background: #ffffff;
-    background-image: url(images/Backgrounds/bg-contact.jpg);
+    background-image: url(images/backgrounds/bg-contact.jpg);
     background-size: cover;
     box-shadow:  inset 0px 0px 200px -50px #000;
 }
