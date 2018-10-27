@@ -312,8 +312,13 @@ img.teamBio {
     max-width: 70%;
     display: block;
     margin: auto;
+    filter: grayscale(100%);
     box-shadow: -1px 1px 2px #ccc;
     border: 0.5px solid #ccc;
+}
+
+img.teamBio:hover {
+    border: 2px solid #ddd;
 }
 
 h5.teamH5 {
@@ -322,6 +327,7 @@ h5.teamH5 {
     text-align: center;
     padding-top: 5%;
 }
+
 
 h6.teamH6 {
     font-family: 'Hind+Siliguri', sans-serif;
