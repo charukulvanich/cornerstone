@@ -1,3 +1,4 @@
+//Fixes issue with toggle scroll on mobile device 
 $("a[data-parent='#accordion']").on("click", function() {
     var active = $(this).attr("href");
     active = $(active);
@@ -6,4 +7,5 @@ $("a[data-parent='#accordion']").on("click", function() {
             $(this).collapse('hide');
         }
     });
+        
 });

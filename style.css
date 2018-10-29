@@ -184,11 +184,16 @@ img.serviceGraphic {
     max-width: 5em;
 }
 
-i.fa-plus {
-    font-size: 1.5em;
+a.serviceToggle {
+    font-size: 1em;
     color: #404040;
-    padding-bottom: 20px;
+    text-decoration: none;
 }
+
+a.serviceToggle:hover {
+    color: #ffbe00;
+}
+
 
 i.fa-plus:hover {
     color: #ffbe00;
