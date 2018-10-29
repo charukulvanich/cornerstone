@@ -123,15 +123,6 @@ h1.serviceH1 {
 }
 
 
-/*h2.serviceH2 {
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-family: 'ROBOTO',sans-serif;
-    font-size: 2.5em; 
-    color: #fff;
-}*/
-
 h4.serviceH4 {
     text-align: left;
     color: #333;
@@ -152,7 +143,7 @@ h5.serviceH5 {
 }
 
 div.serviceCol {
-    padding: 2%;
+    padding-left: 3%;
 }
 
 div.serviceWeb {
@@ -163,7 +154,6 @@ div.serviceWeb {
     font-family: 'Hind+Siliguri', sans-serif;
     font-weight: 400;
     letter-spacing: 0.4px;
-    text-align: justify;
 }
 
 
@@ -309,17 +299,11 @@ div.teamBioRow {
 
 img.teamBio {
     width: auto;
-    max-width: 70%;
+    max-width: 100%;
     display: block;
-    margin: auto;
-    filter: grayscale(100%);
-    box-shadow: -1px 1px 2px #ccc;
-    border: 0.5px solid #ccc;
+    margin: auto;      
 }
 
-img.teamBio:hover {
-    border: 2px solid #ddd;
-}
 
 h5.teamH5 {
     font-family: 'futura-pt', sans-serif;
