@@ -49,16 +49,24 @@ a.nav-link:hover{
     background-color: #fff;
     background-image: url("images/backgrounds/bg-main-mobile.jpg");
     background-size: cover;
-    background-position: 100%;
+    background-position: 100%;    
   }
+    h1.heroH1 {
+        text-align: left;
+        margin-bottom: 20px;
+    }   
+    h3.heroH3 {
+        text-align: left;
+        font-size: 1em !important;
+    }
 }
 
 
 div.hero {
     max-width: 1300px;
     margin: auto;
-    padding-top: 15%;
-    padding-bottom: 17%;
+    padding-top: 25%;
+    padding-bottom: 25%;
     text-align: center;
 }
 
@@ -109,16 +117,29 @@ h1.serviceH1 {
 
 /**MOBILE - Header**/
 @media (min-width: 300px) and (max-width: 768px) {
+  
     h1.serviceH1 {
         border-right: 0px;
         border-bottom: 10px solid #ffbe00;
-        font-size: 2.2em;
+        font-size: 1.9em;
         padding-bottom: 5%;
-        padding-top: 5%;        
+        margin-top:50px;    
+        text-align: left;
     }
+    
     h2.serviceH2 {
         padding-bottom: 5%;
         padding-top: 5%;     
+    }
+    
+    h5.serviceH5 {
+        font-size: 16px !important;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+    
+    div.serviceCol {
+        margin-bottom: 60px;
     }
 }
 
@@ -245,12 +266,24 @@ button.contactSubmit {
 
 /**MOBILE - align form text left, center botton**/
 @media (min-width: 300px) and (max-width: 768px) {
+    h1.contactH1 {
+        margin-left:0px;
+        margin-top:40px;
+        margin-bottom: 20px;
+    }
+    p.contactP {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
     label.col-form-label {
         text-align: left;
     }
     button.contactSubmit {
-        width: 200px;
+        width: 100%;
         margin-left: 0%;
+        margin-bottom: 50px;
     }
 }
 
@@ -320,6 +353,25 @@ h6.teamH6 {
     font-size: 1em;
 }
 
+
+@media (min-width: 300px) and (max-width: 768px) {
+h2.teamH2 {
+	
+    border-bottom: 10px solid #ffbe00;
+    border-right: none;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+    h4.teamH4 {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    
+    h6.teamH6 {
+        margin-bottom: 60px;
+    }
+}
 /** Footer **/
 
 div.footer {
