@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
 /**NAVIGATION BAR**/
 
 nav {

@@ -38,7 +38,6 @@
 
         <!--CUSTOM SCRIPT-->
         <script src="main.js"></script>
-
     </head>
 
 <body>
@@ -114,8 +113,9 @@
                 <p>We kick off the process by gathering insights about your business. We will determine the best domain methology for your website base on your criterias and requirements.</p>
                 
                 <div id="accordion">
-                <a data-toggle="collapse" data-parent="#accordion" href="#toggleDomain" class="serviceToggle">Read more <i class="fas fa-plus"></i></a>
-                
+                <a data-toggle="collapse" data-parent="#accordion" href="#toggleDomain" class="serviceToggle" aria-expanded="false">     <span class="collapsed">Read more <i class="fas fa-plus"></i></span>
+                    <span class="expanded">Show less <i class="fas fa-minus"></i></span>
+                </a>
                 
                 <div class="collapse" id="toggleDomain">
                     <ul class="noindent">
@@ -126,7 +126,7 @@
                     <p>These questions will help determine if you require a database, content management system, or a template based hosting solution.</p>
                    
                 </div> 
-                </div>
+                </div>   
             </div>
             
             
@@ -142,7 +142,9 @@
                 </p>                 
                 
                 <div id="accordion">
-                <a data-toggle="collapse" data-parent="#accordion" href="#toggleDesign" class="serviceToggle">Read more <i class="fas fa-plus"></i></a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#toggleDesign" class="serviceToggle" aria-expanded="false">     <span class="collapsed">Read more <i class="fas fa-plus"></i></span>
+                    <span class="expanded">Show less <i class="fas fa-minus"></i></span>
+                </a>
                 
                 <div class="collapse" id="toggleDesign"> 
                     <ul class="noindent">
@@ -163,7 +165,9 @@
                 <p>Prior to launch, the site goes through a rigorous quality assurance process to ensure your website performs smoothly across all devices and browsers.</p>                 
                 
                 <div id="accordion">
-                <a data-toggle="collapse" data-parent="#accordion" href="#toggleLaunch" class="serviceToggle">Read more <i class="fas fa-plus"></i></a>                
+                <a data-toggle="collapse" data-parent="#accordion" href="#toggleLaunch" class="serviceToggle" aria-expanded="false">     <span class="collapsed">Read more <i class="fas fa-plus"></i></span>
+                    <span class="expanded">Show less <i class="fas fa-minus"></i></span>
+                </a>                
              
                 <div class="collapse" id="toggleLaunch">                       
                     <p>We need make sure your website is responsive for desktop and mobile screens, and functions correctly on older browser versions. After the site passes QA testing and with your final approval, the website goes live!</p>                    
@@ -227,25 +231,19 @@
         </div>
         <div class="row teamBioRow">
             <div class="col-md-4">                
-                <img src="images/bio/bio-dennis.jpg" 
-                     onmouseover="this.src='images/bio/bio-dennis-hov.jpg';"
-                     onmouseout="this.src='images/bio/bio-dennis.jpg';" class="teamBio">
+                <img src="images/bio/bio-dennis.jpg" class="teamBio">
                 <h5 class="teamH5">Dennis</h5>
                 <h6 class="teamH6">UX/UI Designer</h6>
             </div>
             
             <div class="col-md-4">
-                <img src="images/bio/bio-chris.jpg" 
-                     onmouseover="this.src='images/bio/bio-chris-hov.jpg';"
-                     onmouseout="this.src='images/bio/bio-chris.jpg';" class="teamBio">
+                <img src="images/bio/bio-chris.jpg" class="teamBio">
                 <h5 class="teamH5">Chris</h5>
                 <h6 class="teamH6">Front-end Developer</h6>
             </div>
             
             <div class="col-md-4">
-                <img src="images/bio/bio-billy.jpg" 
-                     onmouseover="this.src='images/bio/bio-billy-hov.jpg';"
-                     onmouseout="this.src='images/bio/bio-billy.jpg';" class="teamBio">
+                <img src="images/bio/bio-billy.jpg" class="teamBio">
                 <h5 class="teamH5">Billy</h5>
                 <h6 class="teamH6">Full Stack Developer &amp; QA</h6>
             </div>
